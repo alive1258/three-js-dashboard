@@ -76,8 +76,8 @@ export const SidebarItemsData: SidebarItem[] = [
           },
           {
             id: 223,
-            name: "Manage Plans",
-            path: "/subscription/plans/manage",
+            name: "Lights",
+            path: "/dashboard/lights",
             module_id: 1,
             Icon: AiOutlineTransaction,
           },
@@ -87,22 +87,29 @@ export const SidebarItemsData: SidebarItem[] = [
   },
   {
     id: 3,
-    name: "Branches",
+    name: "Object3D",
     module_id: 1,
     path: "", // Empty path = collapsible parent
     Icon: AiOutlineTransaction,
     sub: [
       {
         id: 31,
-        name: "All Branches",
-        path: "/branches/all",
+        name: "All Object3D",
+        path: "/dashboard/object-3d",
+        module_id: 1,
+        Icon: AiOutlineTransaction,
+      },
+      {
+        id: 331,
+        name: " Object 3D Hierarchy",
+        path: "/dashboard/object-3d-hierarchy",
         module_id: 1,
         Icon: AiOutlineTransaction,
       },
       {
         id: 32,
-        name: "Branch Management",
-        path: "", // Empty path = collapsible parent
+        name: "Hierarchy",
+        path: "",
         module_id: 1,
         Icon: AiOutlineTransaction,
         sub: [
@@ -126,17 +133,24 @@ export const SidebarItemsData: SidebarItem[] = [
   },
 
   {
-    id: 5,
-    name: "Geofences",
+    id: 10,
+    name: "EnvironmentMaps",
     module_id: 1,
-    path: "/geofences/all-geofences",
+    path: "/dashboard/environment-maps",
+    Icon: PiStudentBold,
+  },
+  {
+    id: 5,
+    name: "Renderer",
+    module_id: 1,
+    path: "/dashboard/renderer",
     Icon: PiStudentBold,
   },
   {
     id: 9,
-    name: "Groups",
+    name: "Shadows",
     module_id: 1,
-    path: "/groups/all-groups",
+    path: "/dashboard/shadows",
     Icon: PiStudentBold,
   },
 ];

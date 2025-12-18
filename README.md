@@ -1,4 +1,4 @@
-# Three.js-Boilerplate-TS-Vite
+# Three.js-Dashboard
 
 A Three.js Boilerplate for TypeScript Vite projects.
 
